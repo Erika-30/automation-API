@@ -1,4 +1,4 @@
-package com.ntt.steps;
+package com.nttdata.steps;
 
 import com.nttdata.model.Articulo;
 import io.restassured.response.Response;

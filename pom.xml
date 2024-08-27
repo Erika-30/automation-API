@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://www.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
@@ -12,10 +11,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <serenity.version>3.3.7</serenity.version> <!-- Actualizado para compatibilidad con Java 22 -->
-        <serenity.maven.version>3.3.7</serenity.maven.version> <!-- Actualizado para compatibilidad con Java 22 -->
-        <serenity.cucumber.version>2.6.0</serenity.cucumber.version> <!-- Actualizado para compatibilidad con Java 22 -->
-        <logback.version>1.4.5</logback.version> <!-- Actualizado -->
+        <serenity.version>3.3.7</serenity.version>
+        <serenity.maven.version>3.3.7</serenity.maven.version>
+        <serenity.cucumber.version>2.6.0</serenity.cucumber.version>
+        <logback.version>1.4.5</logback.version>
         <encoding>UTF-8</encoding>
         <tags></tags>
         <parallel.tests>4</parallel.tests>
@@ -71,41 +70,41 @@
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>5.1.1</version> <!-- Actualizado para compatibilidad con Java 22 -->
+            <version>5.1.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>json-path</artifactId>
-            <version>5.1.1</version> <!-- Actualizado para compatibilidad con Java 22 -->
+            <version>5.1.1</version>
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>xml-path</artifactId>
-            <version>5.1.1</version> <!-- Actualizado para compatibilidad con Java 22 -->
+            <version>5.1.1</version>
         </dependency>
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy</artifactId>
-            <version>3.0.9</version> <!-- Actualizado para compatibilidad con Java 22 -->
+            <version>3.0.9</version>
         </dependency>
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-xml</artifactId>
-            <version>3.0.9</version> <!-- Actualizado para compatibilidad con Java 22 -->
+            <version>3.0.9</version>
         </dependency>
 
         <!-- General test libraries -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.13.2</version> <!-- Actualizado -->
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.21.0</version> <!-- Actualizado -->
+            <version>3.21.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -121,7 +120,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version> <!-- Actualizado -->
+                <version>3.0.0-M5</version>
                 <configuration>
                     <skip>true</skip>
                 </configuration>
@@ -129,7 +128,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
-                <version>3.0.0-M5</version> <!-- Actualizado -->
+                <version>3.0.0-M5</version>
                 <configuration>
                     <includes>
                         <include>**/*Test.java</include>
@@ -156,10 +155,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version> <!-- Actualizado -->
+                <version>3.8.1</version>
                 <configuration>
-                    <source>22</source> <!-- Configurado para Java 22 -->
-                    <target>22</target> <!-- Configurado para Java 22 -->
+                    <source>22</source>
+                    <target>22</target>
                 </configuration>
             </plugin>
             <plugin>

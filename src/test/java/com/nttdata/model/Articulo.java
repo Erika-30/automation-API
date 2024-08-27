@@ -1,6 +1,5 @@
-package com.ntt.model;
+package com.nttdata.model;
 
-import com.fasterxml.jackson.annotation.*;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonPropertyOrder({"userId", "id", "title", "body" })

@@ -1,4 +1,4 @@
-package com.ntt.steps;
+package com.nttdata.steps;
 
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;

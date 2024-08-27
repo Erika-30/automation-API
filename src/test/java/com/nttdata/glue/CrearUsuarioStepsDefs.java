@@ -1,4 +1,4 @@
-package com.ntt.glue;
+package com.nttdata.glue;
 
 import com.nttdata.steps.CrearUsuario;
 import io.cucumber.java.en.And;
