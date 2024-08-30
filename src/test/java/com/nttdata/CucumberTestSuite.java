@@ -15,6 +15,4 @@ import org.junit.runner.RunWith;
         plugin = {"pretty"} // Plugin para formatear la salida de la consola
 )
 // Definición de la clase de prueba CucumberTestSuite
-public class CucumberTestSuite {
-    // Clase vacía, la configuración se realiza a través de las anotaciones
-}
+public class CucumberTestSuite {}

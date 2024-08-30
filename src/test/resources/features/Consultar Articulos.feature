@@ -25,3 +25,4 @@ Feature: Consulta un servicio
     # Este paso imprime los artículos que se obtuvieron en la consulta anterior.
     # Se conecta con el método `imprimoLosArticulos()` en la clase `ArticuloStepDef`.
     Then imprimo los articulos
+
